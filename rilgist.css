@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+a:link,a:visited{
+  text-decoration:none;
+  color: black;
+  }
+
+
+  @media (min-width: 1025px) and (max-width: 5000px) {
+    .top-menu-mobile{
+display: none;
+  }
+  
+
+    .top-menu-pc{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+      justify-content: center;
+      padding-bottom: 10px;
+}
+
+.top-menu-sub{
+flex-basis: 10%;
+font-family: 'Great Vibes';
+}
+
+.top-menu-sub h1{
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.top-menu-sub-1{
+  flex-basis: 50%;
+  margin-left: 50px;
+  }
+  
+
+.top-menu-sub-1 ul{
+  display: flex;
+
+  }
+  
+ ul li {
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  list-style: none; 
+  }
+
+  .top-menu-sub-1 ul li a{
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    padding: 5px  15px  5px  15px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    }
+
+    .social-icon{
+      width: 20px;
+      height: 20px;
+      border-radius: 2px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .blog-main{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .blog-img{
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+
+    .blog-tabs{
+      flex-basis: 25%;
+      height: 100%;
+      padding: 10px;
+      margin: 5px;
+      border: rgb(214, 211, 211) 0.1px solid;
+      border-radius: 18px;
+    }
+
+    .blog-tabs span{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 2px 0px 2px 0px;
+    font-family: 'Times New Roman';
+    }
+
+    .blog-tabs p{
+      font-size: 18px;
+      letter-spacing: 1px;
+      margin: 2px 0px 2px 0px;
+      font-family: 'Times New Roman';
+      }
+
+
+      .blog-tabs h2{
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin: 2px 0px 2px 0px;
+        font-family: 'AR JULIAN';
+        text-align: justify;
+        }
+
+        .btn{
+          border: black solid 1px;
+          border-radius: 12px;
+          width:40%;
+          padding:3px ;
+          margin-top: 10px;
+          margin-bottom: 5px;
+        }
+  
+        .btn p{
+          text-align: center;
+        }
+
+
+        .blog-tabs-post{
+          width: 90%;
+          padding: 5px;
+          margin: 5px;
+          border-radius: 18px;
+          text-align: left;
+        }
+    
+        .blog-tabs-post span{
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 2px 0px 2px 0px;
+        font-family: 'Times New Roman';
+        text-align: left;
+        }
+    
+        .blog-tabs-post p{
+          font-size: 20px;
+          letter-spacing: 1px;
+          margin: 2px 0px 2px 0px;
+          font-family: 'Times New Roman';
+          text-align: left;
+          }
+    
+    
+          .blog-tabs-post h2{
+            font-size: 45px;
+            letter-spacing: 1px;
+            margin: 2px 0px 2px 0px;
+            font-family: 'AR JULIAN';
+            text-align: left;
+            }
+
+        .blog-post-img{
+          width: 100%;
+          height: 100%;
+        }
+
+
+  
+
+
+
+
+
+
+
+.footer-1{
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.footer-2{
+  flex-basis: 30%;
+  margin: 10px 5px 0px 5px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer-2 a{
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+  }

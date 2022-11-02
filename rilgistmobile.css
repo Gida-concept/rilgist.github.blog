@@ -1,0 +1,80 @@
+@media (min-width: 0px) and (max-width: 1024px) {
+    .top-menu-pc{
+        display: none;
+    }
+
+    .top-menu-mobile{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+      justify-content: center;
+      position: sticky;
+}
+
+.top-menu-sub-mobile{
+    flex-basis: 20%;
+    font-family: 'Great Vibes';
+}
+
+.top-menu-sub-mobile h1{
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    
+  }
+
+.top-menu-sub-mobile-2{
+ flex-basis: 60%;
+ text-align: right;
+}
+
+.mobile-drop{
+    display: none;
+    position: relative;
+}
+
+.top-menu-sub-mobile-2:hover .mobile-drop{
+    display: block;
+    width: 100%;
+}
+
+.top-menu-sub-mobile-2:hover .mobile-drop p a{
+    color: white;
+    text-align: justify;
+}
+
+.top-menu-sub-mobile-2:hover .mobile-drop p{
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
