@@ -193,6 +193,13 @@ margin-bottom: 20px;
 
         .also-read a{color: red;}
 
+        #advert{
+          width: 99%;
+          height: 99%;
+         margin-top: 10px;
+         margin-bottom: 10px;
+        }
+
 
 
 
